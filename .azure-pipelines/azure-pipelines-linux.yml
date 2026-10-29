@@ -5,7 +5,7 @@
 jobs:
 - job: linux
   pool:
-    vmImage: ubuntu-latest
+    vmImage: $(vm_image)
   strategy:
     matrix:
       linux_64_python3.11.____cpython:
