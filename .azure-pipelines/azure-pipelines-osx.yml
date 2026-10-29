@@ -18,7 +18,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15
       osx_64_python3.12.____cpython:
         CONFIG: osx_64_python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -29,7 +29,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15
       osx_64_python3.13.____cp313:
         CONFIG: osx_64_python3.13.____cp313
         UPLOAD_PACKAGES: 'True'
@@ -40,7 +40,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15
       osx_64_python3.14.____cp314:
         CONFIG: osx_64_python3.14.____cp314
         UPLOAD_PACKAGES: 'True'
@@ -51,7 +51,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15
       osx_64_python3.15.____cp315:
         CONFIG: osx_64_python3.15.____cp315
         UPLOAD_PACKAGES: 'True'
@@ -62,7 +62,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15
       osx_arm64_python3.11.____cpython:
         CONFIG: osx_arm64_python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -73,7 +73,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15-arm64
       osx_arm64_python3.12.____cpython:
         CONFIG: osx_arm64_python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -84,7 +84,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15-arm64
       osx_arm64_python3.13.____cp313:
         CONFIG: osx_arm64_python3.13.____cp313
         UPLOAD_PACKAGES: 'True'
@@ -95,7 +95,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15-arm64
       osx_arm64_python3.14.____cp314:
         CONFIG: osx_arm64_python3.14.____cp314
         UPLOAD_PACKAGES: 'True'
@@ -106,7 +106,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15-arm64
       osx_arm64_python3.15.____cp315:
         CONFIG: osx_arm64_python3.15.____cp315
         UPLOAD_PACKAGES: 'True'
@@ -117,7 +117,7 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-        vm_image: null
+        vm_image: macOS-15-arm64
   timeoutInMinutes: 360
   variables: {}
 
