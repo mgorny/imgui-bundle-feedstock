@@ -32,7 +32,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_python3.12.____cpython
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
@@ -44,7 +44,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_python3.13.____cp313
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
@@ -56,7 +56,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_python3.14.____cp314
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
@@ -68,7 +68,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_python3.15.____cp315
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
@@ -80,7 +80,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_python3.11.____cpython
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
@@ -92,7 +92,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_python3.12.____cpython
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
@@ -104,7 +104,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_python3.13.____cp313
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
@@ -116,7 +116,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_python3.14.____cp314
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
@@ -128,7 +128,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_python3.15.____cp315
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
@@ -140,7 +140,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_ppc64le_python3.11.____cpython
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
@@ -152,7 +152,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_ppc64le_python3.12.____cpython
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
@@ -164,7 +164,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_ppc64le_python3.13.____cp313
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
@@ -176,7 +176,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_ppc64le_python3.14.____cp314
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
@@ -188,7 +188,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_ppc64le_python3.15.____cp315
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
@@ -200,7 +200,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-latest']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_riscv64_python3.14.____cp314
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-riscv64:rocky10
@@ -212,7 +212,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-24.04-riscv']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_riscv64_python3.15.____cp315
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-riscv64:rocky10
@@ -224,7 +224,7 @@ jobs:
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['ubuntu-24.04-riscv']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_64_python3.11.____cpython
             STORE_BUILD_ARTIFACTS: False
@@ -235,7 +235,7 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15-intel']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_64_python3.12.____cpython
             STORE_BUILD_ARTIFACTS: False
@@ -246,7 +246,7 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15-intel']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_64_python3.13.____cp313
             STORE_BUILD_ARTIFACTS: False
@@ -257,7 +257,7 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15-intel']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_64_python3.14.____cp314
             STORE_BUILD_ARTIFACTS: False
@@ -268,7 +268,7 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15-intel']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_64_python3.15.____cp315
             STORE_BUILD_ARTIFACTS: False
@@ -279,7 +279,7 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15-intel']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_arm64_python3.11.____cpython
             STORE_BUILD_ARTIFACTS: False
@@ -290,7 +290,7 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_arm64_python3.12.____cpython
             STORE_BUILD_ARTIFACTS: False
@@ -301,7 +301,7 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_arm64_python3.13.____cp313
             STORE_BUILD_ARTIFACTS: False
@@ -312,7 +312,7 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_arm64_python3.14.____cp314
             STORE_BUILD_ARTIFACTS: False
@@ -323,7 +323,7 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: osx_arm64_python3.15.____cp315
             STORE_BUILD_ARTIFACTS: False
@@ -334,68 +334,68 @@ jobs:
             os: macos
             pagefile_size: 0
             resize_partitions: False
-            runs_on: ['macos-15']
+            runs_on: ['dupadupa']
             tools_install_dir: ~/miniforge3
           - CONFIG: win_64_python3.11.____cpython
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
-            build_workspace_dir: D:\\bld\\
+            build_workspace_dir: C:\\bld\\
             docker_run_args: 
             free_disk_space: skip
             os: windows
             pagefile_size: 16
             resize_partitions: False
-            runs_on: ['windows-2022']
-            tools_install_dir: D:\Miniforge
+            runs_on: ['dupadupa']
+            tools_install_dir: C:\Miniforge
           - CONFIG: win_64_python3.12.____cpython
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
-            build_workspace_dir: D:\\bld\\
+            build_workspace_dir: C:\\bld\\
             docker_run_args: 
             free_disk_space: skip
             os: windows
             pagefile_size: 16
             resize_partitions: False
-            runs_on: ['windows-2022']
-            tools_install_dir: D:\Miniforge
+            runs_on: ['dupadupa']
+            tools_install_dir: C:\Miniforge
           - CONFIG: win_64_python3.13.____cp313
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
-            build_workspace_dir: D:\\bld\\
+            build_workspace_dir: C:\\bld\\
             docker_run_args: 
             free_disk_space: skip
             os: windows
             pagefile_size: 16
             resize_partitions: False
-            runs_on: ['windows-2022']
-            tools_install_dir: D:\Miniforge
+            runs_on: ['dupadupa']
+            tools_install_dir: C:\Miniforge
           - CONFIG: win_64_python3.14.____cp314
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
-            build_workspace_dir: D:\\bld\\
+            build_workspace_dir: C:\\bld\\
             docker_run_args: 
             free_disk_space: skip
             os: windows
             pagefile_size: 16
             resize_partitions: False
-            runs_on: ['windows-2022']
-            tools_install_dir: D:\Miniforge
+            runs_on: ['dupadupa']
+            tools_install_dir: C:\Miniforge
           - CONFIG: win_64_python3.15.____cp315
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
-            build_workspace_dir: D:\\bld\\
+            build_workspace_dir: C:\\bld\\
             docker_run_args: 
             free_disk_space: skip
             os: windows
             pagefile_size: 16
             resize_partitions: False
-            runs_on: ['windows-2022']
-            tools_install_dir: D:\Miniforge
+            runs_on: ['dupadupa']
+            tools_install_dir: C:\Miniforge
           - CONFIG: win_arm64_python3.14.____cp314
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -406,7 +406,7 @@ jobs:
             os: windows
             pagefile_size: 16
             resize_partitions: False
-            runs_on: ['windows-11-arm']
+            runs_on: ['dupadupa']
             tools_install_dir: C:\Miniforge
           - CONFIG: win_arm64_python3.15.____cp315
             STORE_BUILD_ARTIFACTS: False
@@ -418,7 +418,7 @@ jobs:
             os: windows
             pagefile_size: 16
             resize_partitions: False
-            runs_on: ['windows-11-arm']
+            runs_on: ['dupadupa']
             tools_install_dir: C:\Miniforge
     steps:
 
