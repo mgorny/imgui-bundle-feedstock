@@ -13,6 +13,7 @@ provider:
   linux_aarch64: github_actions
   linux_ppc64le: github_actions
   linux_riscv64: github_actions
+  osx_64: github_actions
   osx_arm64: github_actions
   win_64: github_actions
   win_arm64: github_actions
@@ -21,3 +22,4 @@ workflow_settings:
   pagefile_size:
   - os: win
     value: 16
+  vm_image: dupadupa
